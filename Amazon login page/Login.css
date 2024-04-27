@@ -1,0 +1,124 @@
+*{
+    margin:4px;
+    padding:5px;
+    box-sizing:border-box;
+}
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    background-color:rgb(211, 208, 208);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.main{
+    background-color:rgb(252, 247, 247);
+    border:2px solid rgb(184, 181, 181);
+    border-radius:10px;
+    box-shadow:0 0 20px rgb(229, 226, 226);
+    width:450px;
+    height:660px;
+    padding:20px 20px;
+}
+img{
+    width:100px;
+    margin-left:140px;
+}
+h1{
+    font-size:30px;
+    margin-left:10px;
+}
+.first{
+    margin-top:10px;
+  font-size:15px;
+  font-weight:bold;
+}
+.second{
+    margin-top:10px;
+    font-size:15px;
+    font-weight:bold;
+}
+.fpass{
+    margin-left:110px;
+}
+.email{
+    width:380px;
+    height:40px;
+    font-size:15px;
+    border-radius:5px;
+    border:2px solid white;
+    font-weight:bold;
+    transition:0.5s;
+    border:1px solid black;
+}
+.email:hover{
+    transition:0.5s;
+    border:2px solid rgb(28, 28, 223);
+}
+.password{
+    height:40px;
+    width:380px;
+    font-size:15px;
+    border-radius:5px;
+    border:2px solid white;
+    font-weight:bold;
+    transition:0.5s;
+    border:1px solid black;
+}
+.password:hover{
+    transition:0.5s;
+    border:2px solid rgb(28, 28, 223);
+}
+.btn{
+    margin-top:20px;
+    width:384px;
+    border-radius:5px;
+    height:40px;
+    margin-left:12px;
+    font-size:18px;
+    background-color:rgb(224, 193, 16);
+    transition:0.5s;
+    border:1px solid black;
+}
+.btn:hover{
+    transition:0.5s;
+    box-shadow:0 0 20px rgb(224, 193, 16);
+}
+.desc{
+    margin-left:10px;
+}
+.desc1{
+    font-weight:bold;
+}
+.desc2{
+    font-weight:bold;
+}
+a{
+    text-decoration:none;
+    transition:0.5s;
+}
+a:hover{
+    transition:0.5s;
+    text-decoration:underline;
+}
+.checkbox{
+    width:30px;
+    height:15px;
+}
+.new{
+    color:rgb(66, 66, 66);
+}
+.btn2{
+    width:400px;
+    height:50px; 
+    font-size:17px;
+    font-weight:bold;
+    background-color:rgb(236, 234, 234);
+    border-radius:5px;
+    border:1px solid black;
+    transition:0.5s;
+}
+.btn2:hover{
+    transition:0.5s;
+    box-shadow:0 0 10px white;
+}
